@@ -1,0 +1,32 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Recordando Express ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CJPardo22/ApiConExpress.git"
+  },
+  "keywords": [
+    "express",
+    "API",
+    "NodeJS"
+  ],
+  "author": "Cristian Pardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CJPardo22/ApiConExpress/issues"
+  },
+  "homepage": "https://github.com/CJPardo22/ApiConExpress#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
